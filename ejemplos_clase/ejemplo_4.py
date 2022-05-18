@@ -27,9 +27,7 @@ caracter_final = pais[-1]  # Índice negativo recorre la lista al reves [MÉTODO
 print(caracter_final)
 
 # Puedo acceder a todos los caracteres individualmente
-print(pais[0], pais[1], pais[2],
-        pais[3], pais[4]
-        )
+print(pais[0],pais[1],pais[2],pais[3],pais[4])
 
 # Puedo acceder a una serie de caracteres todos juntos
 # Se especifica el intervalo de índices con ':' --> inicial:final

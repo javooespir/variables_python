@@ -20,7 +20,7 @@ edad = int(input())
 print('Edad ingresada:', edad)
 
 print('Ingrese su altura en metros:')
-# Utilizamos "int" cuando lo que se desea ingresar
+# Utilizamos "float" cuando lo que se desea ingresar
 # es un número decimal (con coma)
 altura = float(input())
 print('Altura ingresada:', altura)

@@ -22,3 +22,14 @@ numero_2 = 7
 # print(....)
 
 # Repita el procedimiento para realizar la resta
+'''¡Inicio del Ejercicio! (metodo distinto al hecho en clase)'''
+
+suma = numero_1 + numero_2 #realizo la suma y la guardo en la variable "suma"
+
+print("Resultado: {}".format(suma)) #imprimo en consola la suma
+
+resta = numero_1 - numero_2 #realizo la resta
+
+print(f"resultado: {resta}")  # imprimo en consola la resta
+
+

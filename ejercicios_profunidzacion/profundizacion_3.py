@@ -36,5 +36,10 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
-print('Ahora si! buena suerte')
+# print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("Por favor, ingrese a continuación su nombre completo:")
+nombre_completo=str(input())
+print("Su nombre en minúsculas será: {}".format(nombre_completo.lower()),
+"\nSu nombre en MAYÚSCULAS será: {}".format(nombre_completo.upper()),
+"\nSu nombre con la primera letra MAYÚSUCLA será: {}".format(nombre_completo.capitalize()))

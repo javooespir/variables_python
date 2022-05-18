@@ -45,3 +45,14 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+print("Este programa es utilizado para entontrar el nombre completo del operador según el apellido de sus padres."
+"\nPor favor, ingrese el nombre y apellido del padre:")
+padre_1= str(input())
+print("Por favor, ingrese el nombre y apellido de la madre:")
+padre_2 = str(input())
+print("Por favor, ingrese su nombre")
+nombre=str(input())
+nombre_padre, apellido_padre=padre_1.split()
+#preguntar como hacer en el caso de que tenga mas de 1 apellido. (entiendo que tengo tendria que splitear en mas veces y luego sumarlo, pero alguna funcion mas practica?)
+nombre_madre, apellido_madre=padre_2.split()
+print("Su nombre completo será:", nombre.capitalize() + "\t" + apellido_padre.capitalize() +" "+ apellido_madre.capitalize())
